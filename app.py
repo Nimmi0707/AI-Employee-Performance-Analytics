@@ -1,5 +1,5 @@
 
-import streamlit as st
+
 import pandas as pd
 import joblib
 from pathlib import Path
@@ -330,7 +330,6 @@ with c4:
             "Experience_Years",
             "Attendance_Percentage"
         ],
-        trendline="ols",
         title="Training Hours vs Performance Score",
         labels={
             "Training_Hours": "Training Hours",
@@ -350,7 +349,6 @@ with c5:
             "Experience_Years",
             "Training_Hours"
         ],
-        trendline="ols",
         title="Attendance vs Performance Score",
         labels={
             "Attendance_Percentage": "Attendance (%)",
